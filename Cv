@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<style type="text/css">
+    
+    .colonne1, .colonne2 {
+    float:left;
+    text-align: center;
+    width:50%;
+    }
+
+    .image, {
+    text-align: center;
+        
+    }
+
+    div {
+  text-align: center;
+}
+
+
+    .forme {
+        position: relative;
+        top: 25px;
+        left:
+    }
+
+    .Salmi {
+        position: relative;
+        right: 15px;
+    }
+
+    .bordergauche {
+    position: absolute;
+    border-left: 60px solid black;
+    height: 1200px;
+    display: inline-block;
+}
+
+    .borderdroite {
+    position: absolute;
+    border-left: 60px solid black;
+    height: 1200px;
+    left: 1280px;
+    display: inline-block;
+    }
+
+    .bordermillieu1 {
+    position: absolute;
+    border-left: 10px solid rgb(87, 87, 87);
+    height: 150px;
+    left: 668px;
+    display: inline-block;
+    bottom: 192px;
+    }
+
+    .bordermillieu2 {
+        position: absolute;
+    border-left: 10px solid rgb(87, 87, 87);
+    height: 350px;
+    left: 668px;
+    display: inline-block;
+    top: 530px;
+    }
+
+    .bordermillieu3 {
+        position: absolute;
+    border-left: 10px solid rgb(87, 87, 87);
+    height: 280px;
+    left: 668px;
+    display: inline-block;
+    top: 945px;
+    
+    }
+     
+  </style>
+<html>
+    <head>
+        <Title>Cv Salmi Ilias</Title>
+    </head>
+    <body>
+       <div class="bordergauche"></div>
+       <div class="borderdroite"></div>
+       <div class="bordermillieu1"></div>
+       <div class="bordermillieu2"></div>
+       <div class="bordermillieu3"></div>
+        <h1 class="Salmi"><center>Salmi 
+            
+                <img class="forme" src="forme.jpeg"/>
+                
+            Ilias</center></h1>
+        <h2><center>Développeur Web</center></h2>
+        <br><br><br>
+        <div class="image">
+        <img src="bonhomme.png"/>
+        </div>
+    
+        <br></body><br>
+        <div class="colonne1" >
+            <h3>Profil</h3>
+            <p>Je m'appelle ilias, j'ai 24ans.<br>
+                Je suis actuellement une formation dans le
+                but<br> de devenir développeur web
+                </p>
+        </div>
+        <div class="colonne2">
+            <h3>Coordonnées</h3>
+            <p>10 avenue de Garlaban<br>
+                13012 Marseille<br>
+                06 31 88 17 92</p>
+        </div>
+        <br><br>
+        <div class="image">
+            <img src="valise.jpeg"/>
+            </div>
+        <div class="colonne1" >
+            <br><br><br>
+            <h3>Expérience</h3>
+            <h4>Réstauration rapide au Carthaji •
+                03/2021 à 03/2022</h4>
+                <p>Caissier</p>
+            <h4>Lobby privé • 08/2020 à 11/2020</h4>
+            <p>Préparateur de commande
+            </p>
+            <h4>Maison pour tous les Caillols • 04/2020 à
+                05/2020</h4>
+                <p>Animateur</p>
+        </div>
+        <div class="colonne2">
+            <br><br><br>
+            <h3>Education</h3>
+            <h4>Simplon Marseille - Le Cloître • 04/2022</h4>
+            <p>Formation développeur web
+            </p>
+            <h4>UFCV Marseille • 03/2020 à 06/2020
+            </h4>
+            <p>Bafa</p>
+            <h4>École Libre des métiers • 2014 à 2017
+            </h4>
+            <p>Bac pro Système électronique numérique,<br>
+                spécialisation réseau
+                </p>
+        </div>
+        <br><br>
+        <div class="image">
+            <img src="ampoule.jpeg"/>
+            </div>
+        <div class="colonne1">
+            <br><br><br>
+            <h3>Compétences</h3>
+            <p>Préparer des commandes à éxpedier
+            </p>
+            <p> Acceuillir et renseigner le client</p>
+            
+            <p>Configurer un poste</p>
+        </div>
+    
+        <div class="colonne2">
+            <br><br><br> 
+            <h3>Intérêts
+            </h3>
+            <p>Musculation</p>
+            <p>Foot</p>
+            <p>Lutte</p>
+        </div>
+        </html>
+        
+   
+    </body>
+</html>
